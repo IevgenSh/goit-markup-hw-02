@@ -17,8 +17,17 @@ body {
   color: var(--primery-text-color);
 }
 
-ul {
+.site-nav,
+.contact-us,
+.features,
+.work,
+.team-list,
+.projects-nav {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /* logo */
@@ -46,7 +55,7 @@ ul {
 }
 
 /* Contact us */
-.contact-us {
+.contact-us .link {
   color: var(--primery-text-color);
 }
 
@@ -98,7 +107,18 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.adress .link:hover,
-.adress .link:focus {
-  color: var(--accent-color);
+/* Portfolio.html */
+.projects-list {
+  list-style: none;
+}
+.projects-title {
+  color: var(--title-text-color);
+}
+
+.projects-list-title {
+  color: var(--title-text-color);
+}
+
+.projects-list-text {
+  color: var(--primery-text-color);
 }
