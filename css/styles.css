@@ -164,6 +164,11 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.adress .link:hover,
+.adress .link:focus {
+  color: var(--accent-color);
+}
+
 /* Portfolio.html */
 
 .projects-title {
